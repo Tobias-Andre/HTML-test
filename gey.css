@@ -1,11 +1,11 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive, bold;
-    background-color: #333333;
+    background-image:
+        linear-gradient(to bottom right, rgb(1, 0, 77), rgb(110, 0, 0)),
+        url('catfront.png');
 }
 h1 {
-    color:#ff0000;
-    font-size: 64px;
-}
+    color:#ff0000;}
 p {
     color: #ff7300;
 }
