@@ -1,0 +1,10 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, bold;
+    background-image:
+        linear-gradient(to bottom right, rgb(1, 0, 77), rgb(122, 1, 133), rgb(110, 0, 0));
+}
+h1 {
+    color:#0004ff;}
+p {
+    color: #ff0000;
+}
