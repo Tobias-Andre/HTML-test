@@ -4,7 +4,11 @@ body {
         linear-gradient(to bottom right, rgb(1, 0, 77), rgb(122, 1, 133), rgb(110, 0, 0));
 }
 h1 {
-    color:#09ff00;}
+    color:#09ff00;
+}
 p {
     color: #00c3ff;
+}
+button {
+    color: #26ff00;
 }
