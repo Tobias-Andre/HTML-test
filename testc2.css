@@ -1,14 +1,7 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive, bold;
-    background-image:
-        linear-gradient(to bottom right, rgb(1, 0, 77), rgb(122, 1, 133), rgb(110, 0, 0));
-}
-h1 {
-    color:#09ff00;
-}
-p {
-    color: #00c3ff;
-}
-button {
-    color: #26ff00;
+    background-image:url(C:/Users/tobia/OneDrive/Dokumenter/GitHub/HTML-test/cat.gif);
+    background-position:center;
+    background-repeat:repeat;
+    background-size:200px 200px;
 }
