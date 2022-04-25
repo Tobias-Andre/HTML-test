@@ -3,8 +3,15 @@ body {
     background-image:
         linear-gradient(to right, #00094a, #360014);
 }
-h1 {
+
+ul {
     background-color: #000000;
     position: sticky;
     top: 0;
+}
+
+li {
+    display: inline;
+    font-size: 150%;
+    padding: 1.5%;
 }
