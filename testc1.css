@@ -1,5 +1,10 @@
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive, bold;
+    font-family: "Sylfaen", bold;
     background-image:
-        linear-gradient(to bottom right, rgb(200, 200, 255), rgb(255, 200, 200));
+        linear-gradient(to right, #00094a, #360014);
+}
+h1 {
+    background-color: #000000;
+    position: sticky;
+    top: 0;
 }
