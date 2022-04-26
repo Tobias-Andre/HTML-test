@@ -4,12 +4,13 @@ body {
 }
 
 ul {
-    background-color: #000000;
+    background-color: #acacac;
     position: sticky;
     top: 0;
 }
 
 li {
+    color: #ff0000;
     display: inline;
     font-size: 150%;
     padding: 1.5%;
