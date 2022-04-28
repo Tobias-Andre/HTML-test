@@ -16,3 +16,7 @@ li {
     font-size: 200%;
     padding: 1%;
 }
+
+a:hover {
+    color: #ff0000
+}
