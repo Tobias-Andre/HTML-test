@@ -12,6 +12,7 @@ ul {
 }
 
 li {
+    color: #ffffff;
     display: inline;
     font-size: 200%;
     padding: 1%;
@@ -23,7 +24,7 @@ a:hover {
 
 .center {
     margin: auto;
-    width: 50%;
+    width: 40%;
     padding: 10px;
-    border: #000000
+    border: #ff0000;
 }
