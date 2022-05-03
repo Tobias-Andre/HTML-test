@@ -4,7 +4,8 @@ body {
 }
 
 ul {
-    background-color: #ffffff40;
+    background-color: #ffffff69;
+    border: 2px solid #ff0000;
     position: sticky;
     top: 2;
 }
@@ -20,6 +21,13 @@ a:hover {
     color: #ff0000
 }
 
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ff0000
+}
+
 .carousel_container {
     width: 85vmin;
     position: absolute;
@@ -29,13 +37,13 @@ a:hover {
     overflow: hidden;
     border: 10px solid #ffffff;
     border-radius: 8px;
-    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+    box-shadow: 10px 25px 30px rgba(0,0,0,1);
 }
 
 .wrapper {
     width: 100%;
     display: flex;
-    animation: slide 16s infinite;
+    animation: slide 20s infinite;
 }
 
 img{
@@ -43,28 +51,15 @@ img{
 }
 
 @keyframes slide{
-    0%{
-        transform: translateX(0);
-    }
-    15%{
-        transform: translateX(-100%);
-    }
-    30%{
-        transform: translateX(-100%);
-    }
-    45%{
-        transform: translateX(-200%);
-    }
-    59%{
-        transform: translateX(-200%);
-    }
-    71%{
-        transform: translateX(-300%);
-    }
-    84%{
-        transform: translateX(-300%);
-    }
-    100%{
-        transform: translateX(0);
-    }
+    0%{transform: translateX(0);}
+    10%{transform: translateX(0);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-100%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-400%);}
+    90%{transform: translateX(-400%);}
+    100%{transform: translateX(0);}
 }

@@ -21,10 +21,3 @@ li {
 a:hover {
     color: #ff0000
 }
-
-.center {
-    margin: auto;
-    width: 40%;
-    padding: 10px;
-    border: #ff0000;
-}
