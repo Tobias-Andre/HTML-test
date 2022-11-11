@@ -17,15 +17,19 @@ li {
     padding: 1%;
 }
 
+a {
+    color: #ffffff;
+}
+
 a:hover {
-    color: #ff0000
+    color: #ff0000;
 }
 
 .center {
     margin: auto;
     width: 40%;
     padding: 10px;
-    border: 1px solid #ff0000
+    border: 1px solid #ff0000;
 }
 
 .carousel_container {
