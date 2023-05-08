@@ -56,14 +56,12 @@ img{
 
 @keyframes slide{
     0%{transform: translateX(0);}
-    10%{transform: translateX(0);}
-    20%{transform: translateX(-100%);}
-    30%{transform: translateX(-100%);}
-    40%{transform: translateX(-200%);}
+    12.5%{transform: translateX(0);}
+    25%{transform: translateX(-100%);}
+    37.5%{transform: translateX(-100%);}
     50%{transform: translateX(-200%);}
-    60%{transform: translateX(-300%);}
-    70%{transform: translateX(-300%);}
-    80%{transform: translateX(-400%);}
-    90%{transform: translateX(-400%);}
+    62.50%{transform: translateX(-200%);}
+    75%{transform: translateX(-300%);}
+    87.5%{transform: translateX(-300%);}
     100%{transform: translateX(0);}
 }
